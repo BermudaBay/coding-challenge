@@ -31,3 +31,5 @@ template MerkleProof(levels) {
 
     root <== hasher[levels - 1].out;
 }
+
+component main = MerkleProof(2);
